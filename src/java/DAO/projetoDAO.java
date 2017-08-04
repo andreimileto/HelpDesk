@@ -31,7 +31,7 @@ public class projetoDAO implements IDAO{
 
                 String sql = "INSERT INTO projeo VALUES ("
                         + "DEFAULT," + "'" + projeto.getDescricao() + "',"
-                        + "'" + projeto.getDescricao()+ "'"
+                        + "'T'"
                         + ")";
                 int resultado = st.executeUpdate(sql);
             } else {
